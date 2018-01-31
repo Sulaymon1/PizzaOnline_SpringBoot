@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="java_spring_db@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="java_spring_db">
+      <ObjectId>17137</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12401</ObjectId>
+    </database>
+    <database id="4" parent="1" name="parserdb">
+      <ObjectId>16394</ObjectId>
+    </database>
+    <database id="5" parent="1" name="spring_db">
+      <ObjectId>17123</ObjectId>
+    </database>
+    <database id="6" parent="1" name="spring_db_nodeJS">
+      <ObjectId>17125</ObjectId>
+    </database>
+    <role id="7" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="8" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="9" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-01-22.18:16:00.634</IntrospectionTimestamp>
+      <IntrospectionStateNumber>161753</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="10" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+    </schema>
+    <sequence id="15" parent="9" name="oformlenie_id_seq">
+      <ObjectId>18346</ObjectId>
+      <StateNumber>161736</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="16" parent="9" name="order_address_id_seq">
+      <ObjectId>18357</ObjectId>
+      <StateNumber>161737</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="17" parent="9" name="orders_for_pizzeria_id_seq">
+      <ObjectId>18376</ObjectId>
+      <StateNumber>161739</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="18" parent="9" name="orders_id_seq">
+      <ObjectId>18368</ObjectId>
+      <StateNumber>161738</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="19" parent="9" name="pizzerias_id_seq">
+      <ObjectId>18384</ObjectId>
+      <StateNumber>161740</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="20" parent="9" name="products_id_seq">
+      <ObjectId>18395</ObjectId>
+      <StateNumber>161741</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="21" parent="9" name="token_id_seq">
+      <ObjectId>18407</ObjectId>
+      <StateNumber>161742</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="22" parent="9" name="user_registration_form_id_seq">
+      <ObjectId>18415</ObjectId>
+      <StateNumber>161743</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="23" parent="9" name="users_id_seq">
+      <ObjectId>18426</ObjectId>
+      <StateNumber>161744</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="24" parent="9" name="oformlenie">
+      <ObjectId>18348</ObjectId>
+      <StateNumber>161736</StateNumber>
+    </table>
+    <table id="25" parent="9" name="order_address">
+      <ObjectId>18359</ObjectId>
+      <StateNumber>161748</StateNumber>
+    </table>
+    <table id="26" parent="9" name="orders">
+      <ObjectId>18370</ObjectId>
+      <StateNumber>161750</StateNumber>
+    </table>
+    <table id="27" parent="9" name="orders_for_pizzeria">
+      <ObjectId>18378</ObjectId>
+      <StateNumber>161752</StateNumber>
+    </table>
+    <table id="28" parent="9" name="pizzerias">
+      <ObjectId>18386</ObjectId>
+      <StateNumber>161751</StateNumber>
+    </table>
+    <table id="29" parent="9" name="products">
+      <ObjectId>18397</ObjectId>
+      <StateNumber>161749</StateNumber>
+    </table>
+    <table id="30" parent="9" name="token">
+      <ObjectId>18409</ObjectId>
+      <StateNumber>161753</StateNumber>
+    </table>
+    <table id="31" parent="9" name="user_registration_form">
+      <ObjectId>18417</ObjectId>
+      <StateNumber>161743</StateNumber>
+    </table>
+    <table id="32" parent="9" name="users">
+      <ObjectId>18428</ObjectId>
+      <StateNumber>161753</StateNumber>
+    </table>
+    <column id="33" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161736</StateNumber>
+      <DefaultExpression>nextval(&apos;oformlenie_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>oformlenie_id_seq</SequenceName>
+    </column>
+    <column id="34" parent="24" name="domofon">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161736</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="35" parent="24" name="floor">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161736</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="36" parent="24" name="id_magaz">
+      <Position>4</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>161736</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="37" parent="24" name="payment">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161736</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="38" parent="24" name="radiotype">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161736</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="39" parent="24" name="room_number">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161736</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="40" parent="24" name="street_and_house">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161736</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="41" parent="24" name="oformlenie_pkey">
+      <ObjectId>18355</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="24" name="oformlenie_pkey">
+      <ObjectId>18356</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>oformlenie_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="43" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161737</StateNumber>
+      <DefaultExpression>nextval(&apos;order_address_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>order_address_id_seq</SequenceName>
+    </column>
+    <column id="44" parent="25" name="domofon">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161737</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="25" name="floor">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161737</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="46" parent="25" name="room_num">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161737</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="47" parent="25" name="street">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161737</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="48" parent="25" name="user_id">
+      <Position>6</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161737</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="49" parent="25" name="order_address_pkey">
+      <ObjectId>18366</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="25" name="order_address_pkey">
+      <ObjectId>18367</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>order_address_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="51" parent="25" name="fkh56omqu98kvtovsxxe7k1wt1o">
+      <ObjectId>18443</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>18428</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="52" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161738</StateNumber>
+      <DefaultExpression>nextval(&apos;orders_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>orders_id_seq</SequenceName>
+    </column>
+    <column id="53" parent="26" name="count">
+      <Position>2</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>161738</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="54" parent="26" name="price">
+      <Position>3</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>161738</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="55" parent="26" name="pizza_id">
+      <Position>4</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161738</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="56" parent="26" name="user_id">
+      <Position>5</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161738</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="57" parent="26" name="orders_pkey">
+      <ObjectId>18374</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="26" name="orders_pkey">
+      <ObjectId>18375</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>orders_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="59" parent="26" name="fk4nlm7ir9h7hbq6knktlouqd35">
+      <ObjectId>18448</ObjectId>
+      <ColNames>pizza_id</ColNames>
+      <RefTableId>18397</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>products</RefTableName>
+      <RefKeyName>products_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="60" parent="26" name="fk32ql8ubntj5uh44ph9659tiih">
+      <ObjectId>18453</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>18428</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="61" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161739</StateNumber>
+      <DefaultExpression>nextval(&apos;orders_for_pizzeria_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>orders_for_pizzeria_id_seq</SequenceName>
+    </column>
+    <column id="62" parent="27" name="pizzeria_id">
+      <Position>2</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161739</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="63" parent="27" name="user_id">
+      <Position>3</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161739</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="64" parent="27" name="orders_for_pizzeria_pkey">
+      <ObjectId>18382</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="27" name="orders_for_pizzeria_pkey">
+      <ObjectId>18383</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>orders_for_pizzeria_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="66" parent="27" name="fkj19xa6s3374new3pjxqh3s4r6">
+      <ObjectId>18458</ObjectId>
+      <ColNames>pizzeria_id</ColNames>
+      <RefTableId>18386</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>pizzerias</RefTableName>
+      <RefKeyName>pizzerias_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="67" parent="27" name="fklxbv3fxwvsiwsrd4g1waofawv">
+      <ObjectId>18463</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>18428</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="68" parent="28" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161740</StateNumber>
+      <DefaultExpression>nextval(&apos;pizzerias_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>pizzerias_id_seq</SequenceName>
+    </column>
+    <column id="69" parent="28" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161740</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="70" parent="28" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161740</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="71" parent="28" name="phone_number">
+      <Position>4</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>161740</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="72" parent="28" name="pizzerias_pkey">
+      <ObjectId>18393</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="73" parent="28" name="uk_533lbq0111yvx5453hpegj8tw">
+      <ObjectId>18437</ObjectId>
+      <ColNames>address</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="28" name="pizzerias_pkey">
+      <ObjectId>18394</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>pizzerias_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="75" parent="28" name="uk_533lbq0111yvx5453hpegj8tw">
+      <ObjectId>18438</ObjectId>
+      <ColNames>address</ColNames>
+      <UnderlyingIndexName>uk_533lbq0111yvx5453hpegj8tw</UnderlyingIndexName>
+    </key>
+    <column id="76" parent="29" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161741</StateNumber>
+      <DefaultExpression>nextval(&apos;products_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>products_id_seq</SequenceName>
+    </column>
+    <column id="77" parent="29" name="count">
+      <Position>2</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161741</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="78" parent="29" name="description">
+      <Position>3</Position>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161741</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="79" parent="29" name="pizza_name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161741</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="80" parent="29" name="price">
+      <Position>5</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161741</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="81" parent="29" name="products_pkey">
+      <ObjectId>18405</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="29" name="products_pkey">
+      <ObjectId>18406</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>products_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="83" parent="29" name="products_price_check">
+      <ObjectId>18401</ObjectId>
+      <ColNames>price</ColNames>
+      <Predicate>price &gt;= 0</Predicate>
+    </check>
+    <column id="84" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161742</StateNumber>
+      <DefaultExpression>nextval(&apos;token_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>token_id_seq</SequenceName>
+    </column>
+    <column id="85" parent="30" name="expiry_date">
+      <Position>2</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>161742</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="86" parent="30" name="token">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161742</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="87" parent="30" name="user_id">
+      <Position>4</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161742</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="88" parent="30" name="token_pkey">
+      <ObjectId>18413</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="89" parent="30" name="token_pkey">
+      <ObjectId>18414</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>token_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="90" parent="30" name="fkj8rfw4x0wjjyibfqq566j4qng">
+      <ObjectId>18468</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>18428</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="91" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161743</StateNumber>
+      <DefaultExpression>nextval(&apos;user_registration_form_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>user_registration_form_id_seq</SequenceName>
+    </column>
+    <column id="92" parent="31" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161743</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="93" parent="31" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161743</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="94" parent="31" name="phone_number">
+      <Position>4</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>161743</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="95" parent="31" name="user_registration_form_pkey">
+      <ObjectId>18424</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="96" parent="31" name="user_registration_form_pkey">
+      <ObjectId>18425</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_registration_form_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="97" parent="32" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161744</StateNumber>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>users_id_seq</SequenceName>
+    </column>
+    <column id="98" parent="32" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161744</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="99" parent="32" name="enabled">
+      <Position>3</Position>
+      <DataType>boolean|0</DataType>
+      <StateNumber>161744</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="100" parent="32" name="hash_password">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161744</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="101" parent="32" name="name">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161744</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="102" parent="32" name="phone_number">
+      <Position>6</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>161744</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="103" parent="32" name="role">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>161744</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="104" parent="32" name="users_pkey">
+      <ObjectId>18435</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="105" parent="32" name="uk_6dotkott2kjsp8vw4d0m25fb7">
+      <ObjectId>18439</ObjectId>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="106" parent="32" name="uk_9q63snka3mdh91as4io72espi">
+      <ObjectId>18441</ObjectId>
+      <ColNames>phone_number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="32" name="users_pkey">
+      <ObjectId>18436</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="108" parent="32" name="uk_6dotkott2kjsp8vw4d0m25fb7">
+      <ObjectId>18440</ObjectId>
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>uk_6dotkott2kjsp8vw4d0m25fb7</UnderlyingIndexName>
+    </key>
+    <key id="109" parent="32" name="uk_9q63snka3mdh91as4io72espi">
+      <ObjectId>18442</ObjectId>
+      <ColNames>phone_number</ColNames>
+      <UnderlyingIndexName>uk_9q63snka3mdh91as4io72espi</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

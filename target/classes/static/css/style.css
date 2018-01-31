@@ -1,0 +1,108 @@
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.fixed-top.fixed-theme {
+    background-color: #ddd;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+.container {
+    padding-top: 5%;
+}
+#carouselExampleIndicators {
+    margin-top: 5%;
+}
+.result_price {
+    margin-right: 1%;
+    margin-bottom: 0;
+}
+
+.dropdown{
+    margin-right: 5%;
+
+}
+
+#korzina, #korzina_menu{
+    width: 183%;
+}
+
+.nav-pos {
+    margin-left: auto;
+}
+#logo {
+    width: 108%;
+    margin-left: 103%;
+}
+
+.logo {
+    width: 10%;
+    z-index: 1040;
+}
+
+.add-btn{
+    width: 100%;
+}
+.price {
+    margin-left: 43%;
+}
+#cart
+{
+    /*  position: absolute;*/
+    width: 200px;
+    left: 900px;
+    top: 0px;
+    text-align: center;
+    border: dotted red 1px;
+}
+.listOfProducts
+{
+    border: dotted red 1px;
+    text-align: center;
+    width: 200px;
+}
+.pizzaList {
+    padding: 0;
+}
+#cartContentShow {
+    padding: 6%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid;
+}
