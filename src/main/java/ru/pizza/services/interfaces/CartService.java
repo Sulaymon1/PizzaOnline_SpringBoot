@@ -1,4 +1,4 @@
-package ru.pizza.services;
+package ru.pizza.services.interfaces;
 
 import ru.itis.pizzaonline.models.Cart;
 import ru.itis.pizzaonline.models.Pizza;

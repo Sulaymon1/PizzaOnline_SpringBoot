@@ -1,4 +1,4 @@
-package ru.pizza.services;
+package ru.pizza.services.implementations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,6 +6,7 @@ import ru.itis.pizzaonline.models.Cart;
 import ru.itis.pizzaonline.models.Pizza;
 import ru.itis.pizzaonline.models.User;
 import ru.itis.pizzaonline.repositories.CartRepository;
+import ru.pizza.services.interfaces.CartService;
 
 import java.util.List;
 import java.util.Optional;

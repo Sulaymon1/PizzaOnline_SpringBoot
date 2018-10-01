@@ -1,13 +1,13 @@
-package ru.pizza.services;
+package ru.pizza.services.implementations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.pizza.models.VerificationToken;
 import ru.pizza.exceptions.EmailExistsException;
-import ru.pizza.form.UserRegistrationForm;
 import ru.pizza.models.User;
 import ru.pizza.repositories.UserRepository;
 import ru.pizza.repositories.VerificationTokenRepository;
+import ru.pizza.services.interfaces.RegistrationService;
 
 /**
  * Created by Sulaymon on 08.12.2017.

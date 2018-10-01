@@ -1,4 +1,4 @@
-package ru.pizza.services;
+package ru.pizza.services.implementations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,6 +10,7 @@ import ru.pizza.models.User;
 import ru.pizza.repositories.OrderAddressRepository;
 import ru.pizza.repositories.OrdersRepository;
 import ru.pizza.repositories.PizzaRepository;
+import ru.pizza.services.interfaces.OrderService;
 
 import java.util.List;
 

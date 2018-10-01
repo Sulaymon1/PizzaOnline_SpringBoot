@@ -1,4 +1,4 @@
-package ru.pizza.services;
+package ru.pizza.services.interfaces;
 
 import ru.pizza.models.VerificationToken;
 import ru.pizza.exceptions.EmailExistsException;

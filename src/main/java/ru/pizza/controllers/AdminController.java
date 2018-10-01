@@ -1,7 +1,6 @@
 package ru.pizza.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.method.P;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.ModelMap;
@@ -13,8 +12,8 @@ import ru.pizza.form.UserRegistrationForm;
 import ru.pizza.models.Pizza;
 import ru.pizza.models.User;
 import ru.pizza.security.Role.Role;
-import ru.pizza.services.AdminServiceImpl;
-import ru.pizza.services.PizzaServiceImpl;
+import ru.pizza.services.implementations.AdminServiceImpl;
+import ru.pizza.services.implementations.PizzaServiceImpl;
 import ru.pizza.validator.PizzaFormValidator;
 import ru.pizza.validator.UserRegistrationFormValidator;
 
