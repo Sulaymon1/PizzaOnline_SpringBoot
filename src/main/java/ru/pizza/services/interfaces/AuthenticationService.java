@@ -1,4 +1,4 @@
-package ru.pizza.services;
+package ru.pizza.services.interfaces;
 
 import org.springframework.security.core.Authentication;
 import ru.pizza.models.User;

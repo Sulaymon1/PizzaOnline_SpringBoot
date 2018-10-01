@@ -1,13 +1,13 @@
-package ru.pizza.services;
+package ru.pizza.services.implementations;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 import ru.pizza.models.Pizza;
 import ru.pizza.models.User;
 import ru.pizza.repositories.PizzaRepository;
 import ru.pizza.repositories.UserRepository;
 import ru.pizza.security.Role.Role;
+import ru.pizza.services.interfaces.AdminService;
 
 import java.util.List;
 

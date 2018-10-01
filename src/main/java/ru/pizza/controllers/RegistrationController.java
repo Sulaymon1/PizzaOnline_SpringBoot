@@ -3,7 +3,6 @@ package ru.pizza.controllers;
 import com.nulabinc.zxcvbn.Strength;
 import com.nulabinc.zxcvbn.Zxcvbn;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.MessageSource;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -20,7 +19,7 @@ import ru.pizza.exceptions.EmailExistsException;
 import ru.pizza.form.UserRegistrationForm;
 import ru.pizza.models.User;
 import ru.pizza.security.Role.Role;
-import ru.pizza.services.RegistrationService;
+import ru.pizza.services.interfaces.RegistrationService;
 import ru.pizza.validator.UserRegistrationFormValidator;
 
 import javax.servlet.http.HttpServletRequest;

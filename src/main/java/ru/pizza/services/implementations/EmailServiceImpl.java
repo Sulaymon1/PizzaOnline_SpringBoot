@@ -1,11 +1,12 @@
-package ru.pizza.services;
+package ru.pizza.services.implementations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
-import ru.pizza.form.UserRegistrationForm;
 import ru.pizza.models.User;
+import ru.pizza.services.interfaces.EmailService;
+import ru.pizza.services.interfaces.RegistrationService;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;

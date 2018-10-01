@@ -2,16 +2,14 @@ package ru.pizza.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import ru.pizza.models.User;
 import ru.pizza.security.Role.Role;
-import ru.pizza.services.AuthenticationServiceImpl;
+import ru.pizza.services.implementations.AuthenticationServiceImpl;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Optional;
 
 /**
  * Created by Sulaymon on 15.12.2017.
