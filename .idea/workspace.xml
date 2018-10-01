@@ -369,19 +369,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.pizza.repositories.dao" />
+      <recent name="ru.pizza.services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.pizza.repositories" />
+      <recent name="ru.pizza.models" />
+      <recent name="ru.pizza.listeners" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\All_files\books\3rd_semestr\Java_EE_Course\OnlinePizza\PizzaOnline\src\main\resources\static\js" />
       <recent name="D:\All_files\books\3rd_semestr\Java_EE_Course\OnlinePizza\PizzaOnline\src\main\resources\static\css" />
       <recent name="D:\All_files\books\3rd_semestr\Java_EE_Course\OnlinePizza\PizzaOnline\src\main\resources\static\js\js_vendor" />
       <recent name="D:\All_files\books\3rd_semestr\Java_EE_Course\OnlinePizza\PizzaOnline\src\main\resources\static\img" />
       <recent name="D:\All_files\books\3rd_semestr\Java_EE_Course\OnlinePizza\PizzaOnline\src\main\resources\static" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.pizza.listeners" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.pizza.repositories.dao" />
-      <recent name="ru.pizza.services" />
     </key>
   </component>
   <component name="RunDashboard">
